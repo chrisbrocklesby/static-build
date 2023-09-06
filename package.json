@@ -1,0 +1,30 @@
+{
+  "name": "static-build",
+  "version": "1.0.0",
+  "description": "A static site builder",
+  "keywords": [
+    "static",
+    "site",
+    "builder",
+    "generator",
+    "static site generator",
+    "liquidjs",
+    "liquid",
+    "template",
+    "templates",
+    "commandline",
+    "cli"
+  ],
+  "author": {
+    "name": "chris Brocklesby",
+    "url": "https://www.chrisbrocklesby.com"
+  },
+  "type": "module",
+  "main": "./bin/index.js",
+  "bin": {
+    "static-build": "./bin/index.js"
+  },
+  "devDependencies": {
+    "liquidjs": "^10.9.2"
+  }
+}
